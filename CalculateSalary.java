@@ -12,7 +12,7 @@ public class CalculateSalary {
 
     public void calculatgeSalary(){
         totalSalary=basicSalary+bonus;
-        System.out.println(totalSalary);
+        System.out.println("total salary is: "+totalSalary);
     }
 
     public void display(){
