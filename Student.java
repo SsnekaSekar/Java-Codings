@@ -1,15 +1,4 @@
-class Main{
-    public static void main(String[] args) {
-    Student std=new Student("sneka",101);
-    std.displayDetails();
-    std.ChangeSchilName("Holly Cross");
 
-    CalculateSalary cs=new CalculateSalary("Sneka",10000.00,5000.00);
-    cs.calculatgeSalary();
-    cs.display();
-}
-
-}
 public class Student {
 
     public String name;
