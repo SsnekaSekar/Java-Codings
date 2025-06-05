@@ -4,7 +4,6 @@ class Main{
     std.displayDetails();
     std.ChangeSchilName("Holly Cross");
 }
-
 }
 public class Student {
 
