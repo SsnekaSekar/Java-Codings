@@ -6,7 +6,6 @@ class Main{
 }
 
 }
-
 public class Student {
 
     public String name;
