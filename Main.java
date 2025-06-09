@@ -40,5 +40,11 @@ public class Main {
                 credit.makePayment(10000);
                 UPIPayment upi = new UPIPayment();
                 upi.makePayment(1000);
+
+                // object creation and call the methods for MultiFunctionPrinter
+                MultifunctionPrinter mulFunPointer=new MultifunctionPrinter();
+                mulFunPointer.print("Resume.pdf");
+                mulFunPointer.scan("IDProof.jpg");
+
         }
 }
