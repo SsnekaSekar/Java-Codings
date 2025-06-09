@@ -42,9 +42,17 @@ public class Main {
                 upi.makePayment(1000);
 
                 // object creation and call the methods for MultiFunctionPrinter
-                MultifunctionPrinter mulFunPointer=new MultifunctionPrinter();
+                MultifunctionPrinter mulFunPointer = new MultifunctionPrinter();
                 mulFunPointer.print("Resume.pdf");
                 mulFunPointer.scan("IDProof.jpg");
+
+                // object creation and call the methods for OnlinePayment
+                OnlinePayment p1 = new PaypalPayment();
+                OnlinePayment p2 = new GooglePayPayment();
+                p1.pay(5000);
+                p1.refund(2500);
+                p2.pay(10000);
+                p2.refund(5000);
 
         }
 }
