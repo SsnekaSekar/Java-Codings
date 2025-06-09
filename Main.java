@@ -26,5 +26,19 @@ public class Main {
                 System.out.println("The area of Circle is: " + c.calculateArea());
                 r.display();
                 System.out.println("The area of Rectangle is: " + r.calculateArea());
+
+                // object creation and call the methods for employee
+                FullTimeEmployee fullTmeEmp = new FullTimeEmployee(1, "Sneka");
+                fullTmeEmp.displayEmpDetails();
+                System.out.println("salary: " + fullTmeEmp.calcSalary());
+                ParttimeEmployee partTmeEmp = new ParttimeEmployee(2, "Ragu");
+                partTmeEmp.displayEmpDetails();
+                System.out.println("salary: " + partTmeEmp.calcSalary());
+
+                // object creation and call the methods for payment
+                CreditCardPayment credit = new CreditCardPayment();
+                credit.makePayment(10000);
+                UPIPayment upi = new UPIPayment();
+                upi.makePayment(1000);
         }
 }

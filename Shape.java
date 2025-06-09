@@ -11,7 +11,7 @@ public abstract class Shape {
 class Circle extends Shape {
     @Override
     public int calculateArea() {
-        int r = 10;
+        int r = 12;
         int a = (int) (3.14 * r * r);
         return (a);
     }
